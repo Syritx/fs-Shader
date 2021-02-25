@@ -13,7 +13,7 @@ type Scene(GWS, NWS) =
     inherit GameWindow(GWS, NWS)
 
     let vertices = [|
-        // R     G     B
+        // X    Y     Z     R     G     B
         -0.5f; -0.5f; 0.0f; 1.0f; 0.0f; 0.0f;
          0.5f; -0.5f; 0.0f; 0.0f; 1.0f; 0.0f;
          0.0f;  0.5f; 0.0f; 0.0f; 0.0f; 1.0f
